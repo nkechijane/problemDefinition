@@ -8,6 +8,10 @@ namespace ProblemDefinition
 {
     class SmartPhone : Phones
     {
+        private int IMEI
+        {
+            get => IMEI;
+        }
         public void Email() 
         {
             Console.WriteLine($"Receives and Send Emails \n");

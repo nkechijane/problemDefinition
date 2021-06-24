@@ -8,6 +8,10 @@ namespace ProblemDefinition
 {
     public class MobilePhone : Phones
     {
+        private int IMEI
+        {
+            get => IMEI;
+        }
         internal Type Batteries { get; set; }
         public Type Keypad { get; }
 
